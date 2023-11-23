@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <section id="contacts">
-      <h5>Get in touch</h5>
+      <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
@@ -41,7 +41,7 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>rakshapadiyar100@gmail.com</h5>
 
-            <a href="mailto:rakshapadiyar100@gmail.com">Send mail</a>
+            <a href="mailto:rakshapadiyar100@gmail.com">Send a mail</a>
           </article>
           <article className="contact__option">
             <FaLinkedin className="contact__option-icon" />

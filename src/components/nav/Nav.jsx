@@ -5,7 +5,7 @@ import { FaUser } from "react-icons/fa";
 import { BiSolidCertification } from "react-icons/bi";
 import { GrProjects } from "react-icons/gr";
 import { FaMessage } from "react-icons/fa6";
-import { FaTools } from "react-icons/fa";
+import { GiSkills } from "react-icons/gi";
 import { useState, useEffect } from "react";
 import { Tooltip } from "react-tooltip";
 
@@ -51,7 +51,7 @@ const Nav = () => {
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
         data-tooltip-id="my-tooltip"
-        data-tooltip-content="About"
+        data-tooltip-content="About Me"
         data-tooltip-place="top"
       >
         <FaUser className="nav-icons" />
@@ -64,7 +64,7 @@ const Nav = () => {
         data-tooltip-content="Skills"
         data-tooltip-place="top"
       >
-        <FaTools className="nav-icons" />
+        <GiSkills className="nav-icons" />
       </a>
       <a
         href="#certifications"
@@ -82,7 +82,7 @@ const Nav = () => {
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
         data-tooltip-id="my-tooltip"
-        data-tooltip-content="Portfolio"
+        data-tooltip-content="Projects"
         data-tooltip-place="top"
       >
         <GrProjects className="nav-icons" />

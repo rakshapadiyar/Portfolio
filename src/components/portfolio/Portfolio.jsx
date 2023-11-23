@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       {" "}
-      <h5>What I've built</h5>
+      <h5>What I've Built</h5>
       <h2>Projects</h2>
     </section>
   );
