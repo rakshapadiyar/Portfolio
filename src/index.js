@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import App from "./src/App";
+import App from "./App";
 import "./index.css";
 import "react-tooltip/dist/react-tooltip.css";
 
