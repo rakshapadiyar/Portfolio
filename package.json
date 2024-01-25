@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio-website-1",
-  "homepage": "https://rakshapadiyar.github.io/Portfolio-Website",
+  "homepage": "https://rakshapadiyar.xyz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,6 +43,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.0"
+    "gh-pages": "^6.1.1"
   }
 }
