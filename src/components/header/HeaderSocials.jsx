@@ -10,7 +10,7 @@ const HeaderSocials = () => {
   return (
     <div className="header__socials">
       <a
-        href="https://linkedin.com/rakshapadiyar"
+        href="https://linkedin.com/in/rakshapadiyar"
         target="_blank"
         rel="noreferrer"
         data-tooltip-id="socials-tooltip"

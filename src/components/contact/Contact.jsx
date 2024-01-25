@@ -29,6 +29,10 @@ const Contact = () => {
     // );
   };
 
+  const messageSent = () => {
+    alert("Message sent!");
+  };
+
   return (
     <section id="contacts">
       <h5>Get In Touch</h5>
@@ -48,7 +52,7 @@ const Contact = () => {
             <h4>LinkedIn</h4>
             <h5>@rakshapadiyar</h5>
             <a
-              href="https:www.linkedin.com/rakshapadiyar"
+              href="https:www.linkedin.com/in/rakshapadiyar"
               target="_blank"
               rel="noreferrer"
             >
@@ -90,7 +94,11 @@ const Contact = () => {
             placeholder="Your Message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
+          <button
+            type="submit"
+            className="btn btn-primary"
+            onClick={messageSent}
+          >
             Send Message
           </button>
         </form>
