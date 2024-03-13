@@ -13,14 +13,14 @@ const Certifications = () => {
       <div className="container certifications__container">
         <article className="certificate">
           <div className="certif__image">
-            <img src={meta} alt="meta" />
+            <img src={gcp} alt="gcp" />
           </div>
-          <h5 className="organisation">Meta </h5>
+          <h5 className="organisation">Google Cloud</h5>
           <small className="certificate__detail">
-            Meta Front End Professional Certificate
+            Google Cloud Certified Cloud Digital Leader
           </small>
           <a
-            href="https://www.credly.com/org/facebook-blueprint/badge/meta-front-end-developer-certificate"
+            href="https://www.credential.net/fba53115-5924-4844-ab5b-4dff8f8d173f"
             target="_blank"
             className="certificate-link"
             rel="noreferrer"

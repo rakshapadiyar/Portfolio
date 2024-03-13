@@ -42,12 +42,12 @@ header {
 .me {
   background: linear-gradient(var(--color-primary-variant), transparent);
   width: 22rem;
-  height: 25rem;
+  height: 22rem;
   position: absolute;
   left: calc(50% - 11rem);
-  margin-top: 4rem;
+  margin-top: 2rem;
   border-radius: 12rem 12rem 0 0;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 .scroll__down {
@@ -66,11 +66,16 @@ header {
 }
 @media screen and (max-width: 600px) {
   header {
-    height: 75vh;
+    height: 55vh;
   }
-
-  .header__socials,
+  #mepic {
+    display: none;
+  }
+  .me .header__socials,
   .scroll__down {
+    display: none;
+  }
+  #social {
     display: none;
   }
 }

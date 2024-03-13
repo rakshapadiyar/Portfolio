@@ -8,7 +8,7 @@ import { Tooltip } from "react-tooltip";
 // import { FaTwitter } from "react-icons/fa";
 const HeaderSocials = () => {
   return (
-    <div className="header__socials">
+    <div className="header__socials" id="social">
       <a
         href="https://linkedin.com/in/rakshapadiyar"
         target="_blank"

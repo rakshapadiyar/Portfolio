@@ -1,5 +1,6 @@
 import React from "react";
-import "../contact/contact.css";
+import { useState, useEffect } from "react";
+import "./contact.css";
 import { MdEmail } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -9,28 +10,32 @@ import emailjs from "emailjs-com";
 const Contact = () => {
   const form = useRef();
 
+  const [showTooltip, setShowTooltip] = useState(false);
+  useEffect(() => {
+    if (showTooltip) {
+      console.log(showTooltip); // Log the updated value of showTooltip
+    }
+  }, [showTooltip]); // Run this effect whenever showTooltip changes
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_8hq7b37",
-      "template_7leav2k",
-      form.current,
-      "cmmRqxobanS9LUi_9"
-    );
+    emailjs
+      .sendForm(
+        "service_8hq7b37",
+        "template_7leav2k",
+        form.current,
+        "cmmRqxobanS9LUi_9"
+      )
+      .then(() => {
+        console.log("Email sent successfully");
+        setShowTooltip(true);
+        console.log(showTooltip);
+        setTimeout(() => {
+          setShowTooltip(false);
+        }, 3000); // Hide tooltip after 3 seconds
+      })
+      .catch((error) => console.error("Email sending failed:", error));
     e.target.reset();
-    //.then(
-    //   (result) => {
-    //     console.log(result.text);
-    //   },
-    //   (error) => {
-    //     console.log(error.text);
-    //   }
-    // );
-  };
-
-  const messageSent = () => {
-    alert("Message sent!");
   };
 
   return (
@@ -94,13 +99,14 @@ const Contact = () => {
             placeholder="Your Message"
             required
           ></textarea>
-          <button
-            type="submit"
-            className="btn btn-primary"
-            onClick={messageSent}
-          >
+          <button type="submit" className="btn btn-primary">
             Send Message
           </button>
+          {showTooltip && (
+            <div className="tooltip">
+              <p>Message sent!</p>
+            </div>
+          )}
         </form>
       </div>
     </section>

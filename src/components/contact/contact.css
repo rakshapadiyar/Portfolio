@@ -5,6 +5,19 @@
   gap: 12%;
 }
 
+.tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 10px); /* Adjust this value as needed */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Ensure it's above other elements */
+}
+
 .contact__options {
   display: flex;
   flex-direction: column;
