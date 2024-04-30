@@ -5,6 +5,10 @@
   gap: 2.5rem;
 }
 
+.project-link {
+  margin: 10px;
+}
+
 .project__image {
   width: 10rem;
   aspect-ratio: 1/1;
