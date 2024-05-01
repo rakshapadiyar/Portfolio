@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.4d47b65c.css",
+    "main.js": "/Portfolio/static/js/main.fa0d27f0.js",
+    "static/media/cartoon-about-transparent.png": "/Portfolio/static/media/cartoon-about-transparent.9c78ef8302bbcbd3c9af.png",
+    "static/media/profiletransparent.png": "/Portfolio/static/media/profiletransparent.32432d04917058787494.png",
+    "index.html": "/Portfolio/index.html",
+    "main.4d47b65c.css.map": "/Portfolio/static/css/main.4d47b65c.css.map",
+    "main.fa0d27f0.js.map": "/Portfolio/static/js/main.fa0d27f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d47b65c.css",
+    "static/js/main.fa0d27f0.js"
+  ]
+}
