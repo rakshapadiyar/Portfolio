@@ -38,6 +38,10 @@
   margin-bottom: 1.5rem;
 }
 
+.project-link {
+  margin: 10px;
+}
+
 @media screen and (max-width: 1024px) {
   .container.project__container {
     grid-template-columns: 1fr;
