@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f608437c.css",
-    "main.js": "/Portfolio/static/js/main.ed00e8db.js",
+    "main.css": "/Portfolio/static/css/main.a1b7f142.css",
+    "main.js": "/Portfolio/static/js/main.7930e20c.js",
     "static/media/cartoon-about-transparent.png": "/Portfolio/static/media/cartoon-about-transparent.9c78ef8302bbcbd3c9af.png",
     "static/media/profiletransparent.png": "/Portfolio/static/media/profiletransparent.32432d04917058787494.png",
-    "static/media/static-serve.png": "/Portfolio/static/media/static-serve.acc8a865187da5f7ede6.png",
-    "static/media/slack.png": "/Portfolio/static/media/slack.b60b63bd2d577115f89c.png",
+    "static/media/static-serve.png": "/Portfolio/static/media/static-serve.597e8e286457e57cbebf.png",
+    "static/media/safeBlur.png": "/Portfolio/static/media/safeBlur.9a160d0337d43949c730.png",
+    "static/media/slack.png": "/Portfolio/static/media/slack.be1f19820d4dbcffcf4b.png",
     "index.html": "/Portfolio/index.html",
-    "main.f608437c.css.map": "/Portfolio/static/css/main.f608437c.css.map",
-    "main.ed00e8db.js.map": "/Portfolio/static/js/main.ed00e8db.js.map"
+    "main.a1b7f142.css.map": "/Portfolio/static/css/main.a1b7f142.css.map",
+    "main.7930e20c.js.map": "/Portfolio/static/js/main.7930e20c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f608437c.css",
-    "static/js/main.ed00e8db.js"
+    "static/css/main.a1b7f142.css",
+    "static/js/main.7930e20c.js"
   ]
 }
